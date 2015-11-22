@@ -61,4 +61,4 @@ data.tidy = data %>%
   summarise(mean = mean(value)) %>%
   ungroup
 
-write.table(data.tidy, file = 'output.txt', row.names = FALSE)
+write.table(data.tidy, file = 'tidy_dataset.txt', row.names = FALSE)
